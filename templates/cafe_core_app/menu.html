@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+
+{% block tittle %} Меню {% endblock %}
+
+{% block path %}
+    <a href="{% url 'cafe_core_app:menu' %}" class="nav-link px-2 text-white">Меню</a>
+{% endblock %}
+{% block content %}
+    {% if meal_categories %}
+        <div class="row mx-4">
+            <div class="col-md-2">
+                {% for category in meal_categories %}
+                    <a href="{% url 'cafe_core_app:meal_category' category.0 %}">{{ category.0 }}</a>
+                    <br>
+                {% endfor %}
+
+            </div>
+            <div class="col-md-10">
+
+            </div>
+        </div>
+    {% else %}
+        Нету даже категорий блюд
+    {% endif %}
+{% endblock %}

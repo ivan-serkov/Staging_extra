@@ -1,0 +1,209 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    <div class="row m-2 ">
+        <div class="col-md-4">
+            <div class="card-user card">
+                <div class="card-body m-1">
+                    <div class="author text-center">
+                        {% if profile.photo %}
+                            <img alt="..." class="avatar border-gray"
+                                 src="{{ profile.photo }}">
+                        {% else %}
+                            <img alt="..." class="avatar border-gray"
+                                 src="/media/busk.png">
+                        {% endif %}
+                        <hr>
+                        <h3 class="title">{{ user.username }}</h3>
+                        <p class="description">
+                            {{ user.first_name }} {{ user.last_name }}
+                            <br>
+                            {{ profile.date_of_birth }}
+                        </p>
+
+                        <p class="description">
+                            Email: {{ user.email }}
+                        </p>
+                        <p class="description">
+                            Зарегистрирован: {{ user.date_joined.date }}
+                        </p>
+
+
+
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="button-container">
+                        <div class="row">
+                            <div class="col text-center">
+                                <h5>12<br><small>проектов</small><br><small>сдано</small>
+                                </h5>
+                            </div>
+                            <div class="col text-center">
+                                <h5>
+                                    20<br><small>вариантов</small><br><small>добавлено</small>
+                                </h5>
+                            </div>
+                            <div class="col text-center"><h5>ЦИФРА<br><small>Что-то там</small></h5></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-1">
+                <div class="card-header"><h4 class="card-title">Команда</h4></div>
+                <div class="card-body">
+                    <ul class="list-unstyled team-members">
+                        <li>
+                            <div class="row">
+                                <div class="col-2 col-md-2">
+                                    <div class="avatar">
+                                        <img alt="..."
+                                             class="img-circle img-no-padding img-responsive"
+                                             src="/paper-dashboard-react/static/media/ayo-ogunseinde-2.f4af8f2c.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-7">
+                                    Конструктор_1
+                                    <br><small>текст</small>
+                                </div>
+                                <div class="text-right col-3 col-md-3">
+                                    <button class="btn-round btn-icon btn btn-outline-success btn-sm"><i
+                                            class="fa fa-envelope"></i></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-2 col-md-2">
+                                    <div class="avatar">
+                                        <img alt="..."
+                                             class="img-circle img-no-padding img-responsive"
+                                             src="/paper-dashboard-react/static/media/ayo-ogunseinde-2.f4af8f2c.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-7">
+                                    Конструктор_2
+                                    <br><small>текст</small>
+                                </div>
+                                <div class="text-right col-3 col-md-3">
+                                    <button class="btn-round btn-icon btn btn-outline-success btn-sm"><i
+                                            class="fa fa-envelope"></i></button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-2 col-md-2">
+                                    <div class="avatar">
+                                        <img alt="..."
+                                             class="img-circle img-no-padding img-responsive"
+                                             src="/paper-dashboard-react/static/media/ayo-ogunseinde-2.f4af8f2c.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-7">
+                                    Конструктор_3
+                                    <br><small>текст</small>
+                                </div>
+                                <div class="text-right col-3 col-md-3">
+                                    <button class="btn-round btn-icon btn btn-outline-success btn-sm"><i
+                                            class="fa fa-envelope"></i></button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card-user card">
+                <div class="card-header"><h5 class="card-title">Edit Profile</h5></div>
+                <div class="card-body">
+                    <form class="">
+                        <div class="row">
+                            <div class="pr-1 col-md-5">
+                                <div class="form-group"><label>Company (disabled)</label><input disabled=""
+                                                                                                placeholder="Company"
+                                                                                                type="text"
+                                                                                                class="form-control"
+                                                                                                value="Creative Code Inc.">
+                                </div>
+                            </div>
+                            <div class="px-1 col-md-3">
+                                <div class="form-group"><label>Username</label><input placeholder="Username"
+                                                                                      type="text"
+                                                                                      class="form-control"
+                                                                                      value="michael23"></div>
+                            </div>
+                            <div class="pl-1 col-md-4">
+                                <div class="form-group"><label for="exampleInputEmail1">Email address</label><input
+                                        placeholder="Email" type="email" class="form-control"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="pr-1 col-md-6">
+                                <div class="form-group"><label>First Name</label><input placeholder="Company"
+                                                                                        type="text"
+                                                                                        class="form-control"
+                                                                                        value="Chet"></div>
+                            </div>
+                            <div class="pl-1 col-md-6">
+                                <div class="form-group"><label>Last Name</label><input placeholder="Last Name"
+                                                                                       type="text"
+                                                                                       class="form-control"
+                                                                                       value="Faker"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group"><label>Address</label><input placeholder="Home Address"
+                                                                                     type="text"
+                                                                                     class="form-control"
+                                                                                     value="Melbourne, Australia">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="pr-1 col-md-4">
+                                <div class="form-group"><label>City</label><input placeholder="City" type="text"
+                                                                                  class="form-control"
+                                                                                  value="Melbourne"></div>
+                            </div>
+                            <div class="px-1 col-md-4">
+                                <div class="form-group"><label>Country</label><input placeholder="Country"
+                                                                                     type="text"
+                                                                                     class="form-control"
+                                                                                     value="Australia"></div>
+                            </div>
+                            <div class="pl-1 col-md-4">
+                                <div class="form-group"><label>Postal Code</label><input placeholder="ZIP Code"
+                                                                                         type="number"
+                                                                                         class="form-control"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group"><label>About Me</label><textarea class="form-control">Oh so, your weak rhyme You doubt I'll bother, reading into it</textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="update ml-auto mr-auto">
+                                <button type="submit" class="btn-round btn btn-primary">Update Profile</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{#    <p>{{ user.id }}</p>#}
+{#    <p>{{ user.last_login }}</p>#}
+{#    <p>{{ user.is_superuser }}</p>#}
+{#    <p>{{ user.is_staff }}</p>#}
+{#    <p>{{ user.is_active }}</p>#}
+
+{% endblock %}
