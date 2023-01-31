@@ -5,124 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06828a91-f39e-40c1-a700-9183dbf35c42" name="Changes" comment="01_28">
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/migrations/0005_projects_replacedfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/dark_mode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/nav_sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/nav_sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Instruction/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/KInstructionBuilder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/KInstructionBuilder/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/Users/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/base_lorem_replaced.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/media/busk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/media/def_profile_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/media/files/base_lorem.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/media/files/base_lorem2016_replaced.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/media/files/base_lorem_2016_replaced.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/media/files/base_lorem_tLzaq59.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KInstructionBuilder/media/katek_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/82d06df1-7570-4b77-9a99-bdbc3dcdaed0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonProject/Lorem.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonProject/base_lorem_replaced.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonProject/default.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pythonProject/name13.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Staging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Staging.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82d06df1-7570-4b77-9a99-bdbc3dcdaed0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,13 +20,21 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KJ41Yby5k4cVt4fkS2cgxW1HSf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -148,6 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Python/Staging/Staging",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -156,7 +53,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Staging">
+    <configuration name="Staging" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Staging" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Staging" />
+      <option name="PARAMETERS" value=".\manage.py runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Staging" type="Python.DjangoServer" factoryName="Django server">
       <module name="Staging" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +84,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Staging.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\Python\Staging\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -181,6 +100,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django Server.Staging" />
+      <item itemvalue="Python.Staging" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -195,6 +118,10 @@
       <workItem from="1673688180654" duration="36000" />
       <workItem from="1673688236251" duration="3882000" />
       <workItem from="1674493280360" duration="14135000" />
+      <workItem from="1674998791819" duration="1127000" />
+      <workItem from="1675100046647" duration="656000" />
+      <workItem from="1675100733842" duration="1605000" />
+      <workItem from="1675185746365" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="01_28">
       <created>1674897600665</created>
@@ -249,8 +176,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="01_14" />
     <MESSAGE value="01_28" />
     <option name="LAST_COMMIT_MESSAGE" value="01_28" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Staging$Staging.coverage" NAME="Staging Coverage Results" MODIFIED="1675187149937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
   </component>
 </project>
