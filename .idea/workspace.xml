@@ -4,13 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06828a91-f39e-40c1-a700-9183dbf35c42" name="Changes" comment="01_28">
-      <change afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Staging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Staging.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/82d06df1-7570-4b77-9a99-bdbc3dcdaed0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="06828a91-f39e-40c1-a700-9183dbf35c42" name="Changes" comment="01_31">
+      <change afterPath="$PROJECT_DIR$/cafe-front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe-front/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe_core_app/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cafe_core_app/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staging/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Staging/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Staging/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Staging/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe_core_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe_core_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe_core_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cafe_core_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +55,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KJ41Yby5k4cVt4fkS2cgxW1HSf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Python/Staging/Staging",
+    "last_opened_file_path": "E:/Python/Staging/manage.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Staging">
-    <configuration name="Staging" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Staging" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,8 +92,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Staging" />
-      <option name="PARAMETERS" value=".\manage.py runserver" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -100,10 +125,26 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/cafe-front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Django Server.Staging" />
-      <item itemvalue="Python.Staging" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="Python.manage" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,7 +162,10 @@
       <workItem from="1674998791819" duration="1127000" />
       <workItem from="1675100046647" duration="656000" />
       <workItem from="1675100733842" duration="1605000" />
-      <workItem from="1675185746365" duration="1448000" />
+      <workItem from="1675185746365" duration="11546000" />
+      <workItem from="1675355195497" duration="105000" />
+      <workItem from="1675355861393" duration="878000" />
+      <workItem from="1675357458230" duration="2548000" />
     </task>
     <task id="LOCAL-00001" summary="01_28">
       <created>1674897600665</created>
@@ -158,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674899365993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="01_31">
+      <created>1675187246432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675187246432</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,14 +227,34 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="01_14" />
     <MESSAGE value="01_28" />
-    <option name="LAST_COMMIT_MESSAGE" value="01_28" />
+    <MESSAGE value="01_31" />
+    <option name="LAST_COMMIT_MESSAGE" value="01_31" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cafe_core_app/urls.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Staging$Staging.coverage" NAME="Staging Coverage Results" MODIFIED="1675187149937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/Staging$Staging.coverage" NAME="manage Coverage Results" MODIFIED="1675279300011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

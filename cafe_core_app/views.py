@@ -44,14 +44,14 @@ def meal_statistics(request):
         'users': User.objects.all(),
         'meal': Meal.objects.all(),
     }
-    print(context['top_meals'].items())
+    # print(context['top_meals'].items())
     return render(request, 'cafe_core_app/statistics.html', context)
 
 
 def stats(request, meal_id):
     top_ten_clickers = MealClick.top_clickers(meal_id, 10)
     clicks = MealClick.objects.filter(meal_id=meal_id).values('click_date')
-    print(clicks)
+    # print(clicks)
     context = {
         'top_ten_clickers': top_ten_clickers,
         'stats': MealClick.objects.filter(meal_id=meal_id),
