@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Menu from "./menu";
+import axios from "axios";
+import {useState} from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const API_URL = 'http://127.0.0.1:8000/api/meal/'
+
+function
+App() {
+    const [Meals, setMeals] = useState([])
+
+    async function getMeals() {
+        const response = await axios.get(API_URL)
+        setMeals(response.data)
+    }
+
+    return (
+        <div className="App">
+            <button onClick={getMeals}>Обновить</button>
+            <h1>Помыть деда</h1>
+            <h2>Обильно тёплой водой</h2>
+            <Menu meals={Meals}/>
+        </div>
+
+    );
 }
 
 export default App;
